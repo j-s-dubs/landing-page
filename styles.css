@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  flex-direction: column;
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.topmost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1F2937;
+  color: white;
+  margin-top: -24px;
+}
+
+.logo {
+  padding: 16px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-section {
+  display: flex;
+  background-color: #1F2937;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 0px; */
+  /* grid-row-gap: 0px; */
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* column-gap: 0px; */
+  /* row-gap: 0px; */
+  /* padding: 0px; */
+}
+
+.big-title  {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin-left: 16px;
+  margin-bottom: -32px;
+  /* row-gap: 0px; */
+}
+
+.title-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-left: 16px;
+  margin-top: -32px;
+  /* row-gap: 0px; */
+}
+
+.top-right {
+  display: flex;
+  flex: 1;
+}
