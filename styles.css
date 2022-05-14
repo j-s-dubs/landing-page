@@ -28,13 +28,15 @@ a {
   justify-content: space-between;
   background-color: #1F2937;
   color: white;
-  margin-top: -24px;
+  padding-top: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .logo {
-  padding: 16px;
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bolder;
 }
 
 .links {
@@ -50,6 +52,8 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 48px;
+  padding-right: 48px;
   /* gap: 0px; */
   /* grid-row-gap: 0px; */
 }
@@ -57,7 +61,9 @@ a {
 .top-left {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1 1 0px;
+  /* flex: 1; */
+  /* color: red; */
   /* justify-content: center; */
   /* align-items: flex-start; */
   /* column-gap: 0px; */
@@ -69,7 +75,7 @@ a {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   margin-bottom: -32px;
   /* row-gap: 0px; */
 }
@@ -77,12 +83,12 @@ a {
 .title-text {
   font-size: 18px;
   color: #E5E7EB;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   margin-top: -32px;
   /* row-gap: 0px; */
 }
 
 .top-right {
   display: flex;
-  flex: 1;
+  flex: 1 1 0px;
 }
