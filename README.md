@@ -1,2 +1,2 @@
 # landing-page
-Odin Foundations landing page.
+Odin Foundations landing page
