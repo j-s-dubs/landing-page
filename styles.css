@@ -119,6 +119,7 @@ a {
   /* background-color: white; */
   flex-direction: column;
   /* justify-content: space-between; */
+  padding-bottom: 24px;
 }
 
 .mid-title {
@@ -166,6 +167,36 @@ a {
   display: flex;
   padding-left: 12px;
   padding-right: 12px;
-  /* justify-content: center; */
   text-align: center;
+}
+
+.block-quote {
+  display: flex;
+  padding: 36px;
+  padding-left: 160px;
+  padding-right: 160px;
+  background-color: #E5E7EB;
+  flex-direction: column;
+  /* text-align: right; */
+}
+
+.quote {
+  display: flex;
+  font-weight: 200;
+  font-size: 36px;
+  text-align: justify;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  /* padding-bottom: -64px; */
+  margin-bottom: -32px;
+}
+
+.attribution {
+  display: flex;
+  font-weight: 200;
+  font-size: 24px;
+  justify-content: flex-end;
+  font-weight: 800;
+  font-size: 24px;
 }
