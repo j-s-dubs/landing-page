@@ -111,6 +111,7 @@ a {
   font-weight: bold;
   color: white;
   border-radius: 8px;
+  border: none;
 }
 
 .mid-section {
